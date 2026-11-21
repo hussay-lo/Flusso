@@ -65,6 +65,9 @@ passwordInput.addEventListener('input', () => {
   if (submitted) validatePassword();
 });
 
+
 function handleLogin(data) {
-  console.log('Form is valid, ready to send.');
+  console.log('Form is valid, ready to send.', data);
+  
+  window.location.href = "learn.html";
 }
