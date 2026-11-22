@@ -64,8 +64,9 @@ img {
 }
 
 .flusso-logo {
-  width: 6rem;
+  width: 10%;
   height: auto;
+  margin-right: 13px;
 }
 
 .flusso-name {
@@ -303,7 +304,8 @@ img {
 @media (max-width: 1116px) {
   
   .flusso-logo {
-    width: 5rem;
+    width: 4rem;
+
   }
   .flusso-name {
     margin-left: calc(5rem * -0.375);
@@ -312,7 +314,8 @@ img {
 
 @media (max-width: 768px) {
   .flusso-logo {
-    width: 5rem;
+    width: 15%;
+    margin-right: 11px;
   }
   .flusso-name {
     margin-left: calc(5.0rem * -0.375);
@@ -376,7 +379,8 @@ img {
 
 @media (max-width: 420px) {
   .flusso-logo {
-    width: 4.25rem;
+    width: 3rem;
+    margin-right: 7px;
   }
   
   .flusso-name {
