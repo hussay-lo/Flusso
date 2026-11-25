@@ -278,6 +278,8 @@ function renderQuestion() {
   quizOptions.innerHTML = '';
   shuffle(question.options).forEach((option) => {
     const optionBtn = document.createElement('button');
+    optionBtn.setAttribute('translate', 'no');
+    optionBtn.lang = 'it';
     optionBtn.className = 'quiz-option';
     optionBtn.textContent = option;
     optionBtn.addEventListener('click', () => answerQuestion(optionBtn, question));
@@ -344,6 +346,8 @@ function renderSaved() {
     item.className = 'saved-item';
 
     const itSpan = document.createElement('span');
+    itSpan.setAttribute('translate', 'no');
+    itSpan.lang = 'it';
     itSpan.className = 'saved-it';
     itSpan.textContent = word.it;
 
