@@ -567,8 +567,6 @@ const levels = [
           { it: 'il Brasile', en: 'Brazil (brasiliano / brasiliana)' },
           { it: "l'Egitto", en: 'Egypt (egiziano / egiziana)' },
           { it: 'il Marocco', en: 'Morocco (marocchino / marocchina)' },
-          { it: "l'Arabia Saudita", en: 'Saudi Arabia (saudita)' },
-          { it: 'la Siria', en: 'Syria (siriano / siriana)' },
           { it: 'la Tunisia', en: 'Tunisia (tunisino / tunisina)' },
           { it: "l'Algeria", en: 'Algeria (algerino / algerina)' },
           { it: "l'Europa", en: 'Europe (europeo / europea)' },
