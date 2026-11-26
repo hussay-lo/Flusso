@@ -624,12 +624,7 @@ const levels = [
             options: ['Africa', 'Asia', 'America'],
             answer: 'Africa',
           },
-          {
-            sentence: 'Ahmed è egiziano e Sara è ___.',
-            translation: 'Ahmed is Egyptian and Sara is Egyptian.',
-            options: ['egiziano', 'egiziana', 'egiziani'],
-            answer: 'egiziana',
-          },
+         
           {
             sentence: 'Roma è in ___.',
             translation: 'Rome is in Italy.',
