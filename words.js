@@ -624,6 +624,12 @@ const levels = [
             options: ['Africa', 'Asia', 'America'],
             answer: 'Africa',
           },
+            {
+            sentence: 'la Cina è in ___.',
+            translation: 'China is in Asia.',
+            options: ['Africa', 'Asia', 'America'],
+            answer: 'Asia',
+          },
          
           {
             sentence: 'Roma è in ___.',
