@@ -17,7 +17,7 @@
     padding-inline: 1.25rem;
   }
   
-  /* ---------- shared section pieces ---------- */
+
   
   .home-section {
     padding-block: 3.5rem;
@@ -267,5 +267,39 @@
       padding-top: 1.25rem;
       border-top: 2px solid var(--h-line);
       width: 100%;
+    }
+  }
+
+  .home-section.home-section--white {
+    padding-top: 3.8rem;
+  }
+
+  .home-meet {
+    background: #ffffff;
+    padding-top: 0;
+    text-align: center;
+  }
+  
+  .home-meet .home-wrap {
+    max-width: calc(100% - 2.5rem);  
+    padding-block: 1.75rem;
+    border: 3px solid var(--h-line);
+    border-radius: var(--h-radius);
+  }
+  
+  .home-meet-link {
+    display: inline-block;
+    margin-top: 1.25rem;
+    padding: 0.8rem 1.6rem;
+    border: 2px solid var(--h-green);
+    border-radius: 999px;
+    color: var(--h-green);
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  @media (min-width: 769px) {
+    .home-meet {
+      display: none;   
     }
   }
